@@ -699,14 +699,13 @@ main()
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
 							}	
-			break;		
-			case 5:
+				case 5:
 					cout<<"CONSTRUIR LA BASE DE DATOS "<<endl; 
-					cout<<"1-?Que es Mantenimiento de equipo de computo basico?"<<endl;
-					cout<<"a)procedimiento de limpieza  y sustitucion de pieza "<<endl;
-					cout<<"b)procedimiento para mantener y programar aplicaciones "<<endl;
-					cout<<"c)programa que limpia todo tu pc "<<endl;
-					cout<<"d)Todas las anteriores "<<endl;
+					cout<<"1-¿Que se necesita para desarrollar una base de datos?"<<endl;
+					cout<<"a)Consultar la idea idea del cliente "<<endl;
+					cout<<"b)Tener las variables "<<endl;
+					cout<<"c)Tener idea sobre crear una base de datos  "<<endl;
+					cout<<"d)Ninguna de las anteriores "<<endl;
 					cin>>respuesta;
 				    if(respuesta=='a')
 						{
@@ -718,11 +717,11 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl;
 							contan=contan+1;
 						}	
-							cout<<"2-?Que herramientas se utilizan para el mantenimiento preventivo ?"<<endl;
-							cout<<"a)Espuma limpiadora "<<endl;
-							cout<<"b)Desarmadores y Pulsera antiestatica "<<endl;
-							cout<<"c)Aire comprimido,borrador y brocha "<<endl;
-							cout<<"d)Todas las anteriores"<<endl;
+							cout<<"2-¿Cual seria un buen diseño de base de datos ?"<<endl;
+							cout<<"a)Que el cliente nos de todo el codigo "<<endl;
+							cout<<"b)Tener un diseño ya pensado para la base "<<endl;
+							cout<<"c)Entregar el diseño sin haberlo probado "<<endl;
+							cout<<"d)Definir claves primarias y secundarias"<<endl;
 							cin>>respuesta;	
 				    if(respuesta=='d')
 						{
@@ -734,10 +733,10 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-							cout<<"?3-?Cual es la manera mas eficas para hacer un mantenimiento ?"<<endl;
-							cout<<"a)desconectar el teclado y el mouse "<<endl;
-							cout<<"b)salvar los archivos importantes e instalar windows nuevamente"<<endl;
-							cout<<"c)limpiar la parte externa"<<endl;
+							cout<<"¿3-¿Como se almacenan los datos de su misma base de datos ?"<<endl;
+							cout<<"a)Por medio de notas "<<endl;
+							cout<<"b)En tablas y columnas "<<endl;
+							cout<<"c)Por discos duros externos"<<endl;
 							cout<<"d)Todas son erroneas "<<endl;
 							cin>>respuesta;	
 				    if(respuesta=='b')
@@ -750,39 +749,7 @@ main()
 					    	cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 					    }
-					    	cout<<"4-?cada cuanto crees que se hace un mantenimiento preventivo?"<<endl;
-							cout<<"a)cada 10 a?os"<<endl;
-							cout<<"b)cada que el ordenador presenta fallas "<<endl;
-							cout<<"c)cuando se considere necesario para evitar posibles da?os"<<endl;
-							cout<<"d)cada 3 meses de antelacion que instales programas nuevos "<<endl;
-							cin>>respuesta;
-					if(respuesta=='c')
-						{
-					    	cout<<"la respuesta es correcta"<<endl;	
-					    	contap=contap+1;
-					    } 
-					else
-						{
-					    	cout<<"La respuesta es incorrecta"<<endl;
-					    	contan=contan+1;
-					    }
-					    cout<<"5-?que debo utilizar como refigerante?"<<endl;
-							cout<<"a)pasta termica "<<endl;
-							cout<<"b)crema de leche "<<endl;
-							cout<<"c)crema dental "<<endl;
-							cout<<"d)masa refigerante"<<endl;
-							cin>>respuesta;
-					if(respuesta=='a')
-						{
-					    	cout<<"la respuesta es correcta"<<endl;
-					    	contap=contap+1;
-					    }
-					else
-						{
-					    	cout<<"La respuesta es incorrecta"<<endl; 
-					    	contan=contan+1;	
-					    }
-			break;
+				break;
 			case 6:
 					cout<<"PROGRAMAR SENTENCIAS SQL. "<<endl; 
 					cout<<"1-?Cu?les son los pilares de la programaci?n orientada a objetos?"<<endl;
